@@ -42,7 +42,7 @@ db.employees.insertMany([
 // Exercise 02
 db.employees.find({ department: "IT" });
 
-db.employees.find({ name: "Rahul" });
+db.employees.find({ name: "Shubham Rana" });
 
 // Exercise 03
 db.employees.find().pretty();
@@ -63,3 +63,4 @@ db.employees.find({ age: { $lte: 25 } });
 db.employees.find({
   salary: { $gte: 40000, $lte: 80000 }
 });
+
