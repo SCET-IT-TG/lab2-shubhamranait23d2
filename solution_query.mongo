@@ -3,7 +3,7 @@ db = db.getSiblingDB("companyDB");
 
 
 db.employees.insertMany([
-  { name: "Rahul", department: "IT", salary: 60000, age: 28 },
+  { name: "Shubham", department: "IT", salary: 70000, age: 28 },
   { name: "Anita", department: "HR", salary: 45000, age: 32 },
   { name: "Vikram", department: "Sales", salary: 30000, age: 25 },
   { name: "Sneha", department: "IT", salary: 80000, age: 35 },
@@ -12,7 +12,7 @@ db.employees.insertMany([
 
 db.employees.find({ department: "IT" })
 
-db.employees.find({ name: "Rahul" })
+db.employees.find({ name: "Shubham" })
 
 db.employees.find().pretty()
 
